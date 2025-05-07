@@ -29,6 +29,7 @@ body {
   height: 100px;
   background-color: #222;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .controles .mostrador {
@@ -91,4 +92,26 @@ body {
   width: 20px;
   height: 100px;
   background-color: #4d3131;
+}
+
+/* CSS Prédio */
+.predio {
+  display: flex;
+  width: 500px;
+  height: 100%;
+  background-color: #319da0;
+  gap: 10px;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  background-color: #0006;
+}
+
+.poco {
+  display: flex;
+  flex: 1;
+  background-color: #fff9;
 }
