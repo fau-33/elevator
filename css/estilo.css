@@ -1,0 +1,28 @@
+/* CSS Gerais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+/* CSS dos controles */
+
+/* CSS Rua */
+.rua {
+  display: flex;
+  align-items: center;
+  background-color: #777;
+  height: 100px;
+  gap: 30px;
+}
+
+.rua > .faixa {
+  flex: 1;
+  height: 10px;
+  background-color: #ddd;
+}
