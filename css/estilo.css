@@ -1,9 +1,11 @@
 /* CSS Gerais */
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: "VT323", monospace;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -20,8 +22,37 @@ body {
 
 /* CSS dos controles */
 .controles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   height: 100px;
   background-color: #222;
+  padding: 10px;
+}
+
+.controles .mostrador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22f522;
+  border: 10px solid #666;
+  height: 100%;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 2.5rem;
+}
+
+.controles button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 2rem;
+  border: 6px solid #999;
+}
+
+.controles button.destaque {
+  background-color: #ffff00;
 }
 
 /* CSS Rua */
